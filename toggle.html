@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="mode">change mode</button>
+</body>
+<script>
+    let modbtn=document.querySelector("#mode");
+    let currmode="light";
+    modbtn.addEventListener("click",()=>{
+        if(currmode==="light"){
+            currmode="dark";
+            document.querySelector("body").style.backgroundColor="red";
+        }else{
+            currmode="light";
+             document.querySelector("body").style.backgroundColor="white";
+        }
+        cosole.console.log(curr,ode);
+        
+    })
+</script>
+</html>
